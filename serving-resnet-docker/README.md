@@ -31,7 +31,7 @@ my-python-app              latest              008a9338fc5e        3 months ago 
 rabbitmq                   3                   5fbca98fc816        3 months ago        125MB
 ```
 4. Pointing the Resnet SavedModel to the model
-Notice that keeping target as '/models/resnet', and adding option -d to run the container in background.
+- Notice that keeping target as '/models/resnet', and adding option -d to run the container in background.
 ```
 PS D:\docker\resnet\resnet_v2_fp32_savedmodel_NHWC_jpg> docker run -p 8501:8501 --name tfserving_resnet --mount type=bin
 d,source=//D/docker/resnet/resnet_v2_fp32_savedmodel_NHWC_jpg,target=/models/resnet -e MODEL_NAME=resnet -it tensorflow/
@@ -61,3 +61,26 @@ CONTAINER ID        IMAGE                COMMAND                  CREATED       
 69b320cd9295        tensorflow/serving   "/usr/bin/tf_serving…"   3 minutes ago       Up 3 minutes        8500/tcp, 0.0.0.0:8501->8501/tcp   tfserving_resnet
 ```
 Facing the issue "Error starting userland proxy: mkdir /port/tcp:0.0.0.0:8501:tcp:172.17.0.2:8501: input/output error": following the discussion [here](https://github.com/docker/for-win/issues/573) to restart Docker to fix the issue. 
+5. In cmd line window:
+```
+C:\Users\T901>curl https://raw.githubusercontent.com/tensorflow/serving/master/tensorflow_serving/example/resnet_client.py -o D:/docker/resnet/resnet_client.py
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2539  100  2539    0     0   2539      0  0:00:01 --:--:--  0:00:01 13577
+```
+6. Test the local resnet server
+- Browser to http://localhost:8501/v1/models/resnet
+```
+{
+ "model_version_status": [
+  {
+   "version": "1538687457",
+   "state": "AVAILABLE",
+   "status": {
+    "error_code": "OK",
+    "error_message": ""
+   }
+  }
+ ]
+}
+```
