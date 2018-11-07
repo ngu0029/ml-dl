@@ -60,8 +60,9 @@ PS C:\Users\T901> docker ps -a
 CONTAINER ID        IMAGE                COMMAND                  CREATED             STATUS              PORTS                              NAMES
 69b320cd9295        tensorflow/serving   "/usr/bin/tf_serving…"   3 minutes ago       Up 3 minutes        8500/tcp, 0.0.0.0:8501->8501/tcp   tfserving_resnet
 ```
-Facing the issue "Error starting userland proxy: mkdir /port/tcp:0.0.0.0:8501:tcp:172.17.0.2:8501: input/output error": following the discussion [here](https://github.com/docker/for-win/issues/573) to restart Docker to fix the issue. 
-5. In cmd line window:
+- Facing the issue "Error starting userland proxy: mkdir /port/tcp:0.0.0.0:8501:tcp:172.17.0.2:8501: input/output error": following the discussion [here](https://github.com/docker/for-win/issues/573) to restart Docker to fix the issue. 
+5. Download the resnet_client.py file to make prediction 
+- In cmd line window:
 ```
 C:\Users\T901>curl https://raw.githubusercontent.com/tensorflow/serving/master/tensorflow_serving/example/resnet_client.py -o D:/docker/resnet/resnet_client.py
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -83,4 +84,9 @@ C:\Users\T901>curl https://raw.githubusercontent.com/tensorflow/serving/master/t
   }
  ]
 }
+```
+- Or try PS C:\Users\T901\Anaconda3> curl -v http://localhost:8501/v1/models/resnet
+7. Run the client
+```
+PS C:\Users\T901\Anaconda3> .\python D:/docker/resnet/resnet_client.py
 ```
