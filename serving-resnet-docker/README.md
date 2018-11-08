@@ -89,4 +89,40 @@ C:\Users\T901>curl https://raw.githubusercontent.com/tensorflow/serving/master/t
 7. Run the client
 ```
 PS C:\Users\T901\Anaconda3> .\python D:/docker/resnet/resnet_client.py
+Prediction class: 286, avg latency: 275.69169999999997 ms
+```
+```
+***Have faced some issues:
+1.  Using base64.b64encode directly does not work
+    # Download the image
+    dl_request = requests.get(IMAGE_URL, stream=True)
+    dl_request.raise_for_status()
+
+    predict_request = '{"instances" : [{"b64": "%s"}]}' % base64.b64encode(dl_request.content)
+    
+2.  Unable to base64 decode - print response.text and response.content to see the error in response
+    print('response = ', response.text) # http://docs.python-requests.org/en/master/user/quickstart/
+    print('response in bytes = ', response.content) # you will see escape character \
+
+    Print logging:
+    response =  { "error": "Failed to process element: 0 of \'instances\' list. Error: Invalid argument: Unable to base64 decode" }
+    response in bytes =  b'{ "error": "Failed to process element: 0 of \\\'instances\\\' list. Error: Invalid argument: Unable to base64 decode" }'
+    
+    Traceback error:
+    json.decoder.JSONDecodeError: Invalid \escape: line 1 column 45 (char 44)
+    
+***How to fix: decode to 'ascii' before doing requests post
+    Do:
+    dl_request = requests.get(IMAGE_URL, stream=True)
+    dl_request.raise_for_status()
+    img_bytes = base64.b64encode(dl_request.content)
+   
+    predict_request = '{"instances" : [{"b64": "%s"}]}' % img_bytes.decode('ascii')
+    
+    or:
+    img = "cat.jpg"
+    urllib.request.urlretrieve(IMAGE_URL, img)
+    img_bytes = base64.b64encode(open(img, "rb").read())
+    
+    predict_request = '{"instances" : [{"b64": "%s"}]}' % img_bytes.decode('ascii')
 ```
