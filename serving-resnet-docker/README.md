@@ -110,8 +110,11 @@ Prediction class: 286, avg latency: 275.69169999999997 ms
     
     Traceback error:
     json.decoder.JSONDecodeError: Invalid \escape: line 1 column 45 (char 44)
-    
-***How to fix: decode to 'ascii' before doing requests post
+```
+- How to fix: decode to 'ascii' before doing requests post. Refs:
+1. https://stackoverflow.com/questions/40849195/how-convert-a-jpeg-image-into-json-file-in-google-machine-learning
+2. https://github.com/mhwilder/tf-keras-gcloud-deployment
+```
     Do:
     dl_request = requests.get(IMAGE_URL, stream=True)
     dl_request.raise_for_status()
