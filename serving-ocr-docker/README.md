@@ -1,4 +1,4 @@
-- Issue : ndarray is not C-contiguous
+- Issue : ndarray is not C-contiguous > Fix: https://stackoverflow.com/questions/26778079/valueerror-ndarray-is-not-c-contiguous-in-cython
 ```
 15  Image Loading start...  D:/docker/ocr/test/
 Image Loading finish...
@@ -11,7 +11,7 @@ Traceback (most recent call last):
     encoded = binascii.b2a_base64(s, newline=False)
 ValueError: ndarray is not C-contiguous
 ```
-- Issue 2: Serving signature not found in signature def
+- Issue 2: Serving signature not found in signature def > Sol: add signature def before exporting the model (see https://stackoverflow.com/questions/45705070/how-to-load-and-use-a-saved-model-on-tensorflow)
 ```
 15  Image Loading start...  D:/docker/ocr/test/
 Image Loading finish...
