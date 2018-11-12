@@ -61,3 +61,21 @@ Traceback (most recent call last):
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: http://127.0.0.1:8501/v1/models/ocr:predict
 ```
++ Solution: Add signature_def_map in builder with 'serving_default' name
+```
+import time
+import os
+
+export_dir = os.path.join('models', time.strftime("%Y%m%d-%H%M%S"))
+builder = tf.saved_model.builder.SavedModelBuilder(export_dir)
+builder.add_meta_graph_and_variables(sess, [tf.saved_model.tag_constants.SERVING], \
+                                     signature_def_map= { "serving_default": tf.saved_model.signature_def_utils.predict_signature_def( \
+                                                                                                                           inputs= {"the_inputs": x}, \
+                                                                                                                           outputs= {"dense2/truediv": y})}, \
+                                     strip_default_attrs=True)
+builder.save()
+```
+- Issue 4: 
+```
+response =  { "error": "Failed to process element: 0 of \'instances\' list. Error: Invalid argument: JSON Value: {\n    \"b64\": ... "\n} Type: Object is not of expected type: float" }
+```
