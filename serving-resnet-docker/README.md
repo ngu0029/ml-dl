@@ -31,7 +31,7 @@ my-python-app              latest              008a9338fc5e        3 months ago 
 rabbitmq                   3                   5fbca98fc816        3 months ago        125MB
 ```
 4. Pointing the Resnet SavedModel to the model
-- Notice that keeping target as '/models/resnet', and adding option -d to run the container in background.
+- Notice that keeping target as '/models/resnet', adding option -d to run the container in background, and adding option --rm to remove the container from container list when exiting. Name in 'target' and 'MODEL_NAME' must be the same.
 ```
 PS D:\docker\resnet\resnet_v2_fp32_savedmodel_NHWC_jpg> docker run -p 8501:8501 --name tfserving_resnet --mount type=bin
 d,source=//D/docker/resnet/resnet_v2_fp32_savedmodel_NHWC_jpg,target=/models/resnet -e MODEL_NAME=resnet -it tensorflow/
@@ -128,4 +128,11 @@ Prediction class: 286, avg latency: 275.69169999999997 ms
     img_bytes = base64.b64encode(open(img, "rb").read())
     
     predict_request = '{"instances" : [{"b64": "%s"}]}' % img_bytes.decode('ascii')
+```
+
+Notes:
+1. Install keras from cmd line for Anaconda
+```
+PS C:\Users\T901\Anaconda3> cd .\Scripts\
+PS C:\Users\T901\Anaconda3\Scripts> ./pip install keras
 ```
