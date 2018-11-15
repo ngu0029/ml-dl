@@ -1,5 +1,13 @@
 - [tf.Graph](https://www.tensorflow.org/api_docs/python/tf/Graph)
+A TensorFlow computation, represented as a dataflow graph.
 
+A Graph contains a set of tf.Operation objects, which represent units of computation; and tf.Tensor objects, which represent the units of data that flow between operations.
+
+A default Graph is always registered, and accessible by calling tf.get_default_graph. **To add an operation to the default graph, simply call one of the functions that defines a new Operation:**
+```
+c = tf.constant(4.0)
+assert c.graph is tf.get_default_graph()
+```
 - [tf.Graph().as_default()](https://www.tensorflow.org/api_docs/python/tf/Graph#as_default)
 
 Returns a context manager that makes this Graph the default graph.
