@@ -26,6 +26,16 @@ sess.close()
 with tf.Session() as sess:
   sess.run(...)
 ```
+```
+__init__(
+    target='',
+    graph=None,
+    config=None
+)
+Creates a new TensorFlow session.
+```
+If no graph argument is specified when constructing the session, the **default graph** will be launched in the session. If you are using more than one graph (created with tf.Graph() in the same process, you will have to use different sessions for each graph, but each graph can be used in multiple sessions. In this case, it is often clearer to pass the graph to be launched explicitly to the session constructor.
+
 - [tf.Session().as_default()](https://www.tensorflow.org/api_docs/python/tf/Session#as_default)
 
 Returns a context manager that makes this object the default session.
@@ -41,7 +51,7 @@ with sess.as_default():
 ```  
 To get the current default session, use **tf.get_default_session**.
 
-**N.B. The as_default context manager does not close the session when you exit the context, and you must close the session explicitly.**
+N.B. The **as_default** context manager does not close the session when you exit the context, and you must close the session explicitly.
 ```
 c = tf.constant(...)
 sess = tf.Session()
