@@ -1,8 +1,10 @@
 1. Start ocr server
+```
 PS C:\Users\T901> docker run -p 8501:8501 --name tfserving_resnet --mount type=bind,source=//D/docker/ocr,target=/models
 /ocr -e MODEL_NAME=ocr -it --rm tensorflow/serving
-
+```
 2. Run the client
+```
 PS C:\Users\T901\Anaconda3> .\python D:/docker/ocr/ocr_client_simple.py
 119184
 response =  {
@@ -11,7 +13,7 @@ response =  {
         }
     ]
 }
-
+```
 3. Inspect the model
 ```
 PS C:\Users\T901\Anaconda3\Scripts> .\saved_model_cli show --dir D:/docker/ocr/0000000001 --all
@@ -87,7 +89,7 @@ builder.add_meta_graph_and_variables(sess, [tf.saved_model.tag_constants.SERVING
                                      strip_default_attrs=True)
 builder.save()
 ```
-- Issue 4: Solution is to build model graph with pre-processing input and post-processing output tensor
+- Issue 4: Solution is to build model graph with pre-processing input and post-processing output tensors
 ```
 response =  { "error": "Failed to process element: 0 of \'instances\' list. Error: Invalid argument: JSON Value: {\n    \"b64\": ... "\n} Type: Object is not of expected type: float" }
 ```
