@@ -9,6 +9,18 @@ This method should be used if you want to create multiple graphs in the same pro
 Use this method with the with keyword to specify that ops created within the scope of a block should be added to this graph. In this case, once the scope of the with is exited, the previous default graph is set again as default. There is a stack, so it's ok to have **multiple nested levels of as_default calls**.
 
 **The default graph is a property of the current thread**. If you create a new thread, and wish to use the default graph in that thread, you must explicitly add a with g.as_default(): in that thread's function.
+```
+# 1. Using Graph.as_default():
+g = tf.Graph()
+with g.as_default():
+  c = tf.constant(5.0)
+  assert c.graph is g
+
+# 2. Constructing and making default:
+with tf.Graph().as_default() as g: # Using the context manager
+  c = tf.constant(5.0)
+  assert c.graph is g
+```
 
 - [tf.get_default_graph()](https://www.tensorflow.org/api_docs/python/tf/get_default_graph)
 
