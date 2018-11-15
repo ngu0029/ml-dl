@@ -1,22 +1,34 @@
-1. Inspect the model
+1. Start ocr server
+PS C:\Users\T901> docker run -p 8501:8501 --name tfserving_resnet --mount type=bind,source=//D/docker/ocr,target=/models
+/ocr -e MODEL_NAME=ocr -it --rm tensorflow/serving
+
+2. Run the client
+PS C:\Users\T901\Anaconda3> .\python D:/docker/ocr/ocr_client_simple.py
+119184
+response =  {
+    "predictions": [{
+            "b64": "NGJ1RlZBPT0="
+        }
+    ]
+}
+
+3. Inspect the model
 ```
 PS C:\Users\T901\Anaconda3\Scripts> .\saved_model_cli show --dir D:/docker/ocr/0000000001 --all
-c:\users\t901\anaconda3\lib\site-packages\h5py\__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
-  from ._conv import register_converters as _register_converters
 
 MetaGraphDef with tag-set: 'serve' contains the following SignatureDefs:
 
-signature_def['prediction']:
+signature_def['serving_default']:
 The given SavedModel SignatureDef contains the following input(s):
-inputs['the_inputs_4'] tensor_info:
-    dtype: DT_FLOAT
-    shape: (-1, 2560, 160, 3)
-    name: the_inputs_4:0
+inputs['input_bytes'] tensor_info:
+    dtype: DT_STRING
+    shape: ()
+    name: input_bytes_1:0
 The given SavedModel SignatureDef contains the following output(s):
-outputs['dense2_4/truediv'] tensor_info:
-    dtype: DT_FLOAT
-    shape: (-1, 80, 144)
-    name: dense2_4/truediv:0
+outputs['output_bytes'] tensor_info:
+    dtype: DT_STRING
+    shape: (1)
+    name: output_bytes_1:0
 Method name is: tensorflow/serving/predict
 ```
 2. Issues and Solutions
@@ -75,7 +87,7 @@ builder.add_meta_graph_and_variables(sess, [tf.saved_model.tag_constants.SERVING
                                      strip_default_attrs=True)
 builder.save()
 ```
-- Issue 4: 
+- Issue 4: Solution is to build model graph with pre-processing input and post-processing output tensor
 ```
 response =  { "error": "Failed to process element: 0 of \'instances\' list. Error: Invalid argument: JSON Value: {\n    \"b64\": ... "\n} Type: Object is not of expected type: float" }
 ```
