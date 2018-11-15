@@ -1,6 +1,6 @@
 1. Start ocr server
 ```
-PS C:\Users\T901> docker run -p 8501:8501 --name tfserving_resnet --mount type=bind,source=//D/docker/ocr,target=/models
+PS C:\Users\T901> docker run -p 8501:8501 --name tfserving_ocr --mount type=bind,source=//D/docker/ocr,target=/models
 /ocr -e MODEL_NAME=ocr -it --rm tensorflow/serving
 ```
 2. Run the client
