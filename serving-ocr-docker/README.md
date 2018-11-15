@@ -33,7 +33,7 @@ outputs['output_bytes'] tensor_info:
     name: output_bytes_1:0
 Method name is: tensorflow/serving/predict
 ```
-2. Issues and Solutions
+### Issues and Solutions
 - Issue : ndarray is not C-contiguous > Fix: https://stackoverflow.com/questions/26778079/valueerror-ndarray-is-not-c-contiguous-in-cython
 ```
 15  Image Loading start...  D:/docker/ocr/test/
