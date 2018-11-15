@@ -65,7 +65,7 @@ sess.close()
 ```
 Alternatively, you can use **with tf.Session():** to create a session that is automatically closed on exiting the context, including when an uncaught exception is raised.
 
-N.B. Entering a with sess.as_default(): block does not affect the current default graph. If you are using **multiple graphs**, and sess.graph is different from the value of tf.get_default_graph, you must explicitly enter a with sess.graph.as_default(): block to make sess.graph the default graph.
+N.B. Entering a with sess.as_default(): block does not affect the current default graph. If you are using **multiple graphs**, and sess.graph is different from the value of tf.get_default_graph, you must explicitly enter a with **sess.graph.as_default():** block to make sess.graph the default graph.
 
 - [tf.get_default_session()](https://www.tensorflow.org/api_docs/python/tf/get_default_session)
 
