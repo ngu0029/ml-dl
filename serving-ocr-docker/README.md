@@ -1,3 +1,4 @@
+### Approach 1: Pre-processing and Post-processing happen in Client
 1. Start ocr server
 ```
 PS C:\Users\T901> docker run -p 8501:8501 --name tfserving_ocr --mount type=bind,source=//D/docker/ocr,target=/models
@@ -5,34 +6,35 @@ PS C:\Users\T901> docker run -p 8501:8501 --name tfserving_ocr --mount type=bind
 ```
 2. Run the client
 ```
-PS C:\Users\T901\Anaconda3> .\python D:/docker/ocr/ocr_client_simple.py
-119184
-response =  {
-    "predictions": [{
-            "b64": "NGJ1RlZBPT0="
-        }
-    ]
-}
+PS C:\Users\T901\Anaconda3> ./python D:/docker/ocr/ocr_client_simplest.py
+Using TensorFlow backend.
+(2560, 160, 3)
+(1, 80, 144)
+78 [143, 143, 0, 22, 143, 143, 143, 143, 0, 0, 143, 143, 143, 143, 0, 7, 143, 143, 143, 0, 32, 139, 53, 67, 67, 67, 60, 53, 0, 32, 47, 143, 143, 143, 143, 143, 143, 0, 0, 31, 102, 86, 0, 0, 25, 143, 143, 0, 143, 143, 143, 143, 0, 143, 143, 143, 143, 143, 143, 143, 0, 32, 76, 76, 143, 0, 0, 0, 34, 34, 0, 0, 40, 76, 0, 0, 143, 143]
+[' B  - Lỳgung La Kấó E   Là N Tà ']
 ```
 3. Inspect the model
 ```
-PS C:\Users\T901\Anaconda3\Scripts> .\saved_model_cli show --dir D:/docker/ocr/0000000001 --all
+PS C:\Users\T901\Anaconda3\Scripts> .\saved_model_cli show --dir D:/docker/ocr/0000000002 --all
 
 MetaGraphDef with tag-set: 'serve' contains the following SignatureDefs:
 
 signature_def['serving_default']:
 The given SavedModel SignatureDef contains the following input(s):
-inputs['input_bytes'] tensor_info:
-    dtype: DT_STRING
-    shape: ()
-    name: input_bytes_1:0
+inputs['input_image'] tensor_info:
+    dtype: DT_FLOAT
+    shape: (-1, 2560, 160, 3)
+    name: the_inputs:0
 The given SavedModel SignatureDef contains the following output(s):
-outputs['output_bytes'] tensor_info:
-    dtype: DT_STRING
-    shape: (1)
-    name: output_bytes_1:0
+outputs['dense2/truediv:0'] tensor_info:
+    dtype: DT_FLOAT
+    shape: (-1, 80, 144)
+    name: dense2/truediv:0
 Method name is: tensorflow/serving/predict
 ```
+### Approach 2: Pre-processing and Post-processing happen in Server
+- Building model graph with pre-processing input and post-processing output tensors
+
 ### Issues and Solutions
 - Issue : ndarray is not C-contiguous > Fix: https://stackoverflow.com/questions/26778079/valueerror-ndarray-is-not-c-contiguous-in-cython
 ```
