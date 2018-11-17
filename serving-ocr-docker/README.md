@@ -91,7 +91,19 @@ builder.add_meta_graph_and_variables(sess, [tf.saved_model.tag_constants.SERVING
                                      strip_default_attrs=True)
 builder.save()
 ```
-- Issue 4: Solution is to build model graph with pre-processing input and post-processing output tensors
+- Issue 4: Solution is to build model graph with pre-processing input and post-processing output tensors in server side. 
 ```
 response =  { "error": "Failed to process element: 0 of \'instances\' list. Error: Invalid argument: JSON Value: {\n    \"b64\": ... "\n} Type: Object is not of expected type: float" }
+```
+Another simplier solution is to create json payload of image np array in Client and send it to Server.
+```
+import requests
+import json
+
+image = img_to_array(load_img('./data/train/train_10001.jpg', target_size=(128,128))) / 255.
+payload = {
+  "instances": [{'input_image': image.tolist()}]
+}
+r = requests.post('http://localhost:8501/v1/models/ocr:predict', json=payload)
+json.loads(r.content)
 ```
