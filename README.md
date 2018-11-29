@@ -4,3 +4,6 @@
 ### Text Processing
 - [ICDAR2017 Competition onPost-OCR Text Correction](https://www.researchgate.net/publication/322780847_ICDAR2017_Competition_on_Post-OCR_Text_Correction)
 - [An Unsupervised and Data-Driven Approach for Spell Checking in Vietnamese OCR-scanned Texts](http://www.aclweb.org/anthology/W12-0505)
+- [Overview of the 2017 ALTA Shared Task: Correcting OCR Errors](http://aclweb.org/anthology/U17-1014)
+- [Statistical Learning for OCR Text Correction](https://arxiv.org/pdf/1611.06950.pdf)
+- Spelling Correction Systems: [Anavec](https://github.com/proycon/anavec), [TICCL](https://github.com/martinreynaert/TICCL), [Google Web 1T n-gram corpus](https://catalog.ldc.upenn.edu/LDC2006T13), [Google Book n-gram]()
