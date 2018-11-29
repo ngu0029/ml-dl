@@ -7,3 +7,4 @@
 - [Overview of the 2017 ALTA Shared Task: Correcting OCR Errors](http://aclweb.org/anthology/U17-1014)
 - [Statistical Learning for OCR Text Correction](https://arxiv.org/pdf/1611.06950.pdf)
 - Spelling Correction Systems: [Anavec](https://github.com/proycon/anavec), [TICCL](https://github.com/martinreynaert/TICCL), [Google Web 1T n-gram corpus](https://catalog.ldc.upenn.edu/LDC2006T13), [Google Book n-gram]()
+- [NMT: an open source neural machine translation system](http://opennmt.net/)
