@@ -11,3 +11,7 @@
 - Spell Checking Tools for Vietnamse: [Hunspell](https://github.com/1ec5/hunspell-vi) - [normalize script - all vnmese chars](https://github.com/1ec5/hunspell-vi/tree/master/tools), [Aspell](https://en.wikipedia.org/wiki/GNU_Aspell) - [Vnmese dict from Available dicts](http://aspell.net/), [VietOCR3 VN Dict](https://github.com/miendinh/VietnameseOCR), [Large-scale VN News Text Classification Corpus](https://github.com/duyvuleo/VNTC)
 - Modeling: [Statistical Learning](https://github.com/jie-mei/OCRrect), [Error Frequency Patterns](https://github.com/tung18tht/ICDAR-2017-Post-OCR-Correction), [Character-based Language Models/LSTMs](https://github.com/KBNLresearch/ochre), [seq2seq/OpenNMT](https://github.com/TurkuNLP/ocr-correction)
 - [NMT: an open source neural machine translation system](http://opennmt.net/)
+
+### Contests
+- [Cinnamon ai marathon](https://www.cinnamonailabs.com/cinnamon-ai-marathon)
+- [Zalo ai challenge](https://challenge.zalo.ai/)
