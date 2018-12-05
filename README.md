@@ -9,7 +9,7 @@
 - [Statistical Learning for OCR Text Correction](https://arxiv.org/pdf/1611.06950.pdf)
 - Spelling Correction Systems: [Anavec](https://github.com/proycon/anavec), [TICCL](https://github.com/martinreynaert/TICCL), [Google Web 1T n-gram corpus](https://catalog.ldc.upenn.edu/LDC2006T13), [Google Book n-gram]()
 - Spell Checking Tools for Vietnamse: [Hunspell](https://github.com/1ec5/hunspell-vi) - [normalize script - all vnmese chars](https://github.com/1ec5/hunspell-vi/tree/master/tools), [Aspell](https://en.wikipedia.org/wiki/GNU_Aspell) - [Vnmese dict from Available dicts](http://aspell.net/), [VietOCR3 VN Dict](https://github.com/miendinh/VietnameseOCR), [Large-scale VN News Text Classification Corpus](https://github.com/duyvuleo/VNTC)
-- Modeling: [Statistical Learning](https://github.com/jie-mei/OCRrect), [Error Frequency Patterns](https://github.com/tung18tht/ICDAR-2017-Post-OCR-Correction), [Character-based Language Models/LSTMs](https://github.com/KBNLresearch/ochre), [seq2seq/OpenNMT](https://github.com/TurkuNLP/ocr-correction)
+- Modeling: [Statistical Learning](https://github.com/jie-mei/OCRrect), [Error Frequency Patterns](https://github.com/tung18tht/ICDAR-2017-Post-OCR-Correction), [Character-based Language Models/LSTMs](https://github.com/KBNLresearch/ochre), [seq2seq/OpenNMT](https://github.com/TurkuNLP/ocr-correction), Statistical Machine Translation (SMT) - [Book](http://www.statmt.org/book/) - [Software](http://www.statmt.org/)
 - [NMT: an open source neural machine translation system](http://opennmt.net/)
 
 ### Contests
