@@ -15,3 +15,6 @@
 ### Contests
 - [Cinnamon ai marathon](https://www.cinnamonailabs.com/cinnamon-ai-marathon)
 - [Zalo ai challenge](https://challenge.zalo.ai/)
+
+### Misc
+- [Transform your command line application into a RESTful webservice and web interface](http://proycon.github.io/clam/)
