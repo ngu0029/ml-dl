@@ -13,6 +13,12 @@
 - Post Modeling: [Statistical Learning](https://github.com/jie-mei/OCRrect), [Error Frequency Patterns](https://github.com/tung18tht/ICDAR-2017-Post-OCR-Correction), [Character-based Language Models/LSTMs](https://github.com/KBNLresearch/ochre), [seq2seq/OpenNMT](https://github.com/TurkuNLP/ocr-correction), Statistical Machine Translation (SMT) - [Book](http://www.statmt.org/book/) - [Software (syntax-based and phrase-based SMT)](http://www.statmt.org/)
 - [NMT: an open source neural machine translation system](http://opennmt.net/)
 
+### Camera Vision
+[EV-SegNet: Semantic Segmentation for Event-based Cameras](https://arxiv.org/pdf/1811.12039v1.pdf)
+
+### Autonomous Driving
+[Practical Visual Localization for Autonomous Driving: Why Not Filter?](https://arxiv.org/pdf/1811.08063v1.pdf)
+
 ### Contests
 - [Cinnamon ai marathon](https://www.cinnamonailabs.com/cinnamon-ai-marathon)
 - [Zalo ai challenge](https://challenge.zalo.ai/)
