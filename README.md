@@ -13,6 +13,9 @@
 - Post Modeling: [Statistical Learning](https://github.com/jie-mei/OCRrect), [Error Frequency Patterns](https://github.com/tung18tht/ICDAR-2017-Post-OCR-Correction), [Character-based Language Models/LSTMs](https://github.com/KBNLresearch/ochre), [seq2seq/OpenNMT](https://github.com/TurkuNLP/ocr-correction), Statistical Machine Translation (SMT) - [Book](http://www.statmt.org/book/) - [Software (syntax-based and phrase-based SMT)](http://www.statmt.org/)
 - [NMT: an open source neural machine translation system](http://opennmt.net/)
 
+### Face Recognition
+- [Face  Recognition  Using  Co-occurence  Histograms  of  Oriented Gradients](https://www.researchgate.net/publication/261466486_Face_recognition_using_Co-occurrence_Histograms_of_Oriented_Gradients) - [Code](https://sites.google.com/view/thanhtoando/software)
+
 ### Camera Vision
 - [EV-SegNet: Semantic Segmentation for Event-based Cameras](https://arxiv.org/pdf/1811.12039v1.pdf)
 
