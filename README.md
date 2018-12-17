@@ -25,6 +25,9 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 ### Autonomous Driving
 - [Practical Visual Localization for Autonomous Driving: Why Not Filter?](https://arxiv.org/pdf/1811.08063v1.pdf)
 
+### Graph
+- [Deep Learning on Graphs: A Survey](https://deepai.org/publication/deep-learning-on-graphs-a-survey)
+
 ### Contests
 - [Cinnamon ai marathon](https://www.cinnamonailabs.com/cinnamon-ai-marathon)
 - [Zalo ai challenge](https://challenge.zalo.ai/)
