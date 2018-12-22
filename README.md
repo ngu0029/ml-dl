@@ -32,5 +32,8 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 - [Cinnamon ai marathon](https://www.cinnamonailabs.com/cinnamon-ai-marathon)
 - [Zalo ai challenge](https://challenge.zalo.ai/)
 
+### Books
+- [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/index.html) - [Code](http://aima.cs.berkeley.edu/index.html)
+
 ### Misc
 - [Transform your command line application into a RESTful webservice and web interface](http://proycon.github.io/clam/)
