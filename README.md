@@ -33,7 +33,7 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 - [Zalo ai challenge](https://challenge.zalo.ai/)
 
 ### Books
-- [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/index.html) - [Code](http://aima.cs.berkeley.edu/index.html)
+- [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/index.html) - [Code](https://github.com/aimacode)
 
 ### Misc
 - [Transform your command line application into a RESTful webservice and web interface](http://proycon.github.io/clam/)
