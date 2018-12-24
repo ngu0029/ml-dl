@@ -28,6 +28,9 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 ### Graph
 - [Deep Learning on Graphs: A Survey](https://deepai.org/publication/deep-learning-on-graphs-a-survey)
 
+### Games
+- [Bayesian Optimization in AlphaGo](https://deepai.org/publication/bayesian-optimization-in-alphago)
+
 ### Contests
 - [Cinnamon ai marathon](https://www.cinnamonailabs.com/cinnamon-ai-marathon)
 - [Zalo ai challenge](https://challenge.zalo.ai/)
