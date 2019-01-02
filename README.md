@@ -27,6 +27,7 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 
 ### Graph
 - [Deep Learning on Graphs: A Survey](https://deepai.org/publication/deep-learning-on-graphs-a-survey)
+- [Graph Neural Networks: A Review of Methods and Applications](https://deepai.org/publication/graph-neural-networks-a-review-of-methods-and-applications)
 
 ### Games
 - [Bayesian Optimization in AlphaGo](https://deepai.org/publication/bayesian-optimization-in-alphago)
