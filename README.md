@@ -21,6 +21,8 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 
 ### Camera Vision
 - [EV-SegNet: Semantic Segmentation for Event-based Cameras](https://arxiv.org/pdf/1811.12039v1.pdf)
+- [Semantic Driven Multi-Camera Pedestrian Detection](https://deepai.org/publication/semantic-driven-multi-camera-pedestrian-detection)
+- [SiCloPe: Silhouette-Based Clothed People](https://deepai.org/publication/siclope-silhouette-based-clothed-people)
 
 ### Autonomous Driving
 - [Practical Visual Localization for Autonomous Driving: Why Not Filter?](https://arxiv.org/pdf/1811.08063v1.pdf)
