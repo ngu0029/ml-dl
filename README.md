@@ -34,6 +34,10 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 ### Games
 - [Bayesian Optimization in AlphaGo](https://deepai.org/publication/bayesian-optimization-in-alphago)
 
+### Chatbots
+- [Building Chatbots in Python](https://www.datacamp.com) - rule-based systems as well as machine learning
+- Github projects
+
 ### Contests
 - [Cinnamon ai marathon](https://www.cinnamonailabs.com/cinnamon-ai-marathon)
 - [Zalo ai challenge](https://challenge.zalo.ai/)
