@@ -38,6 +38,10 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 - [Building Chatbots in Python](https://www.datacamp.com) - rule-based systems as well as machine learning
 - Github projects
 
+### CNN
+- Similarity Learning: [Visualizing Deep Similarity Networks](https://deepai.org/publication/visualizing-deep-similarity-networks), [Multi-class Classification without Multi-class Labels](https://deepai.org/publication/multi-class-classification-without-multi-class-labels)
+- Interpretable Filter Learning: [Interpretable CNNs](https://deepai.org/publication/interpretable-cnns)
+
 ### Contests
 - [Cinnamon ai marathon](https://www.cinnamonailabs.com/cinnamon-ai-marathon)
 - [Zalo ai challenge](https://challenge.zalo.ai/)
