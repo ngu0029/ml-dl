@@ -24,6 +24,9 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 - [Semantic Driven Multi-Camera Pedestrian Detection](https://deepai.org/publication/semantic-driven-multi-camera-pedestrian-detection)
 - [SiCloPe: Silhouette-Based Clothed People](https://deepai.org/publication/siclope-silhouette-based-clothed-people)
 
+### Image Segmentation
+- [Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation](https://deepai.org/publication/auto-deeplab-hierarchical-neural-architecture-search-for-semantic-image-segmentation)
+
 ### Autonomous Driving
 - [Practical Visual Localization for Autonomous Driving: Why Not Filter?](https://arxiv.org/pdf/1811.08063v1.pdf)
 
@@ -41,6 +44,8 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 ### CNN
 - Similarity Learning: [Visualizing Deep Similarity Networks](https://deepai.org/publication/visualizing-deep-similarity-networks), [Multi-class Classification without Multi-class Labels](https://deepai.org/publication/multi-class-classification-without-multi-class-labels)
 - Interpretable Filter Learning: [Interpretable CNNs](https://deepai.org/publication/interpretable-cnns)
+- Attention Network: [UAN: Unified Attention Network for Convolutional Neural Networks](https://deepai.org/publication/uan-unified-attention-network-for-convolutional-neural-networks)
+- Bayesian Learning: [Bayesian Learning of Neural Network Architectures](https://deepai.org/publication/bayesian-learning-of-neural-network-architectures), [No-regret Bayesian Optimization with Unknown Hyperparameters](https://deepai.org/publication/no-regret-bayesian-optimization-with-unknown-hyperparameters)
 
 ### Contests
 - [Cinnamon ai marathon](https://www.cinnamonailabs.com/cinnamon-ai-marathon)
