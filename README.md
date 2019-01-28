@@ -30,6 +30,9 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 ### Autonomous Driving
 - [Practical Visual Localization for Autonomous Driving: Why Not Filter?](https://arxiv.org/pdf/1811.08063v1.pdf)
 
+### Robotics
+- [Robot Sequential Decision Making using LSTM-based Learning and Logical-probabilistic Reasoning](https://deepai.org/publication/robot-sequential-decision-making-using-lstm-based-learning-and-logical-probabilistic-reasoning)
+
 ### Graph
 - [Deep Learning on Graphs: A Survey](https://deepai.org/publication/deep-learning-on-graphs-a-survey)
 - [Graph Neural Networks: A Review of Methods and Applications](https://deepai.org/publication/graph-neural-networks-a-review-of-methods-and-applications)
@@ -46,6 +49,10 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 - Interpretable Filter Learning: [Interpretable CNNs](https://deepai.org/publication/interpretable-cnns)
 - Attention Network: [UAN: Unified Attention Network for Convolutional Neural Networks](https://deepai.org/publication/uan-unified-attention-network-for-convolutional-neural-networks)
 - Bayesian Learning: [Bayesian Learning of Neural Network Architectures](https://deepai.org/publication/bayesian-learning-of-neural-network-architectures), [No-regret Bayesian Optimization with Unknown Hyperparameters](https://deepai.org/publication/no-regret-bayesian-optimization-with-unknown-hyperparameters)
+
+### Generative Networks
+[Detecting Overfitting of Deep Generative Networks via Latent Recovery](https://deepai.org/publication/detecting-overfitting-of-deep-generative-networks-via-latent-recovery)
+- [MRI to CT Translation with GANs](https://deepai.org/publication/mri-to-ct-translation-with-gans)
 
 ### Contests
 - [Cinnamon ai marathon](https://www.cinnamonailabs.com/cinnamon-ai-marathon)
