@@ -51,7 +51,7 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 - Bayesian Learning: [Bayesian Learning of Neural Network Architectures](https://deepai.org/publication/bayesian-learning-of-neural-network-architectures), [No-regret Bayesian Optimization with Unknown Hyperparameters](https://deepai.org/publication/no-regret-bayesian-optimization-with-unknown-hyperparameters)
 
 ### Generative Networks
-[Detecting Overfitting of Deep Generative Networks via Latent Recovery](https://deepai.org/publication/detecting-overfitting-of-deep-generative-networks-via-latent-recovery)
+- [Detecting Overfitting of Deep Generative Networks via Latent Recovery](https://deepai.org/publication/detecting-overfitting-of-deep-generative-networks-via-latent-recovery)
 - [MRI to CT Translation with GANs](https://deepai.org/publication/mri-to-ct-translation-with-gans)
 
 ### Contests
