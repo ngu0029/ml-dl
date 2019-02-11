@@ -53,6 +53,11 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 ### Generative Networks
 - [Detecting Overfitting of Deep Generative Networks via Latent Recovery](https://deepai.org/publication/detecting-overfitting-of-deep-generative-networks-via-latent-recovery)
 - [MRI to CT Translation with GANs](https://deepai.org/publication/mri-to-ct-translation-with-gans)
+- [Deep Generative Learning via Variational Gradient Flow](https://deepai.org/publication/deep-generative-learning-via-variational-gradient-flow)
+- [Flow++: Improving Flow-Based Generative Models with Variational Dequantization and Architecture Design](https://deepai.org/publication/flow-improving-flow-based-generative-models-with-variational-dequantization-and-architecture-design)
+
+### Adversarial Networks
+- [Towards a Deeper Understanding of Adversarial Losses](https://deepai.org/publication/towards-a-deeper-understanding-of-adversarial-losses)
 
 ### Contests
 - [Cinnamon ai marathon](https://www.cinnamonailabs.com/cinnamon-ai-marathon)
