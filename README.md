@@ -67,5 +67,8 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 - [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/index.html) - [Code](https://github.com/aimacode)
 - [AI Programmer's Bookshelf](http://alumni.media.mit.edu/~jorkin/aibooks.html)
 
+### Other Sources
+- [SOTA Machine Learning](https://paperswithcode.com/sota)
+
 ### Misc
 - [Transform your command line application into a RESTful webservice and web interface](http://proycon.github.io/clam/)
