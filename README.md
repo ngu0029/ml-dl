@@ -59,6 +59,9 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 ### Adversarial Networks
 - [Towards a Deeper Understanding of Adversarial Losses](https://deepai.org/publication/towards-a-deeper-understanding-of-adversarial-losses)
 
+### Reinforcement Learning
+- [Course and Videos](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
+
 ### Contests
 - [Cinnamon ai marathon](https://www.cinnamonailabs.com/cinnamon-ai-marathon)
 - [Zalo ai challenge](https://challenge.zalo.ai/)
