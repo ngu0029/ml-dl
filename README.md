@@ -61,6 +61,7 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 
 ### Reinforcement Learning
 - [Course and Videos](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
+- [An intro to RL: Book and Code](http://www.incompleteideas.net/book/the-book-2nd.html)
 
 ### Contests
 - [Cinnamon ai marathon](https://www.cinnamonailabs.com/cinnamon-ai-marathon)
