@@ -15,13 +15,19 @@ cd training-data-analyst
 Note: The lab works with [GCP BigQuerry](https://bigquery.cloud.google.com)
 
 **2. Lab 2 (Getting Started with TensorFlow):**
-- Navigate to datalab/training-data-analyst/courses/machine_learning/tensorflow
+- Navigate to datalab/training-data-analyst/courses/machine_learning/tensorflow/
 - Open a_tfstart.ipynb.
 - In Cloud Datalab, click on Clear | Clear all Cells (click on Clear drop-down menu, select Clear all Cells).
 - Read the narrative and execute each cell one by one.
 
 **3. Lab 3 (Machine Learning using tf.estimator):**
-- Navigate to datalab/training-data-analyst/courses/machine_learning/tensorflow
+- Navigate to datalab/training-data-analyst/courses/machine_learning/tensorflow/
 - Open b_estimator.ipynb.
 - In Cloud Datalab, click on Clear, then click on Clear All Cells.
 - Read the narrative and execute each cell in turn.
+
+**4. Lab 4 (Refactoring to add batching and feature-creation):**
+- Navigate to datalab/training-data-analyst/courses/machine_learning/tensorflow/
+- Open c_batched.ipynb.
+- In Cloud Datalab, click on Clear | Clear all Cells (click on Clear drop-down menu, select Clear all Cells).
+- Read the narrative and execute each cell one by one.
