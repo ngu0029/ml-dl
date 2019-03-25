@@ -19,3 +19,9 @@ Note: The lab works with [GCP BigQuerry](https://bigquery.cloud.google.com)
 - Open a_tfstart.ipynb.
 - In Cloud Datalab, click on Clear | Clear all Cells (click on Clear drop-down menu, select Clear all Cells).
 - Read the narrative and execute each cell one by one.
+
+**3. Lab 3 (Machine Learning using tf.estimator):**
+- Navigate to datalab/training-data-analyst/courses/machine_learning/tensorflow
+- Open b_estimator.ipynb.
+- In Cloud Datalab, click on Clear, then click on Clear All Cells.
+- Read the narrative and execute each cell in turn.
