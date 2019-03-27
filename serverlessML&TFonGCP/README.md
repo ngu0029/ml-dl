@@ -73,3 +73,9 @@ cd training-data-analyst
 > - Open cloudmle.ipynb.
 > - In Cloud Datalab, click on Clear | Clear all Cells (click on Clear drop-down menu, select Clear all Cells).
 > - Read the narrative and execute each cell in turn.
+
+**7. Lab 7 (Feature Engineering):**
+- Navigate to datalab/training-data-analyst/courses/machine_learning/feateng.
+- Open feateng.ipynb.
+- In Cloud Datalab, click on Clear, then click on Clear All Cells.
+- Read the narrative and execute each cell in turn.
