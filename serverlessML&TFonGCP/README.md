@@ -79,4 +79,4 @@ cd training-data-analyst
 - Open feateng.ipynb.
 - In Cloud Datalab, click on Clear, then click on Clear All Cells.
 - Read the narrative and execute each cell in turn.
-> **Notes:** This lab uses different task.py and model.py at training-data-analyst/courses/machine_learning/feateng/taxifare/trainer, **involving two new inputs in the INPUT_COLUMNS, three engineered features, and the estimator involves bucketization and feature crosses.**.
+> **Notes:** This lab uses different task.py and model.py at training-data-analyst/courses/machine_learning/feateng/taxifare/trainer, **involving two new inputs in the INPUT_COLUMNS, three engineered features, and the estimator involves bucketization and feature crosses.** See explanation in the training video "Feature Engineering Lab Review".
