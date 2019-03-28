@@ -74,9 +74,34 @@ cd training-data-analyst
 > - In Cloud Datalab, click on Clear | Clear all Cells (click on Clear drop-down menu, select Clear all Cells).
 > - Read the narrative and execute each cell in turn.
 
+> See the following extract of **serving_input_fn()**
+```
+# Create your serving input function so that your trained model will be able to serve predictions
+def serving_input_fn():
+    feature_placeholders = {
+        column.name: tf.placeholder(tf.float32, [None]) for column in INPUT_COLUMNS
+    }
+    features = feature_placeholders
+    return tf.estimator.export.ServingInputReceiver(features, feature_placeholders)
+```
+
 **7. Lab 7 (Feature Engineering):**
 - Navigate to datalab/training-data-analyst/courses/machine_learning/feateng.
 - Open feateng.ipynb.
 - In Cloud Datalab, click on Clear, then click on Clear All Cells.
 - Read the narrative and execute each cell in turn.
-> **Notes:** This lab uses different task.py and model.py at training-data-analyst/courses/machine_learning/feateng/taxifare/trainer, **involving two new inputs in the INPUT_COLUMNS, three engineered features, and the estimator involves bucketization and feature crosses.** See explanation in the training video "Feature Engineering Lab Review".
+> + **Notes:** This lab uses different task.py and model.py at training-data-analyst/courses/machine_learning/feateng/taxifare/trainer, **involving two new inputs in the INPUT_COLUMNS, three engineered features, and the estimator involves bucketization and feature crosses.** See explanation of model.py in the training video "Feature Engineering Lab Review".
+> + See the following extract of **serving_input_fn()** including the *add_engineered* call.
+```
+# Create serving input function to be able to serve predictions
+def serving_input_fn():
+    feature_placeholders = {
+        # All the real-valued columns
+        column.name: tf.placeholder(tf.float32, [None]) for column in INPUT_COLUMNS[2:7]
+    }
+    feature_placeholders['dayofweek'] = tf.placeholder(tf.string, [None])
+    feature_placeholders['hourofday'] = tf.placeholder(tf.int32, [None])
+
+    features = add_engineered(feature_placeholders.copy())
+    return tf.estimator.export.ServingInputReceiver(features, feature_placeholders)
+```    
