@@ -70,6 +70,7 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 ### Books
 - [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/index.html) - [Code](https://github.com/aimacode)
 - [AI Programmer's Bookshelf](http://alumni.media.mit.edu/~jorkin/aibooks.html)
+- [Book DL Source](http://gen.lib.rus.ec/)
 
 ### Other Sources
 - [SOTA Machine Learning](https://paperswithcode.com/sota)
