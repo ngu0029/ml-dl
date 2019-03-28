@@ -84,6 +84,7 @@ def serving_input_fn():
     features = feature_placeholders
     return tf.estimator.export.ServingInputReceiver(features, feature_placeholders)
 ```
+> **Notes:** Read notebook for training locally using Python, using gcloud, or submitting training using gcloud; for local prediction using "gcloud ml-engine local predict" (only work with python 2 currently); for deploying the model and making prediction using "gcloud ml-engine predict" or REST API.
 
 **7. Lab 7 (Feature Engineering):**
 - Navigate to datalab/training-data-analyst/courses/machine_learning/feateng.
