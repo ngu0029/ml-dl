@@ -105,3 +105,10 @@ def serving_input_fn():
     features = add_engineered(feature_placeholders.copy())
     return tf.estimator.export.ServingInputReceiver(features, feature_placeholders)
 ```    
+> + A fix:
+```
++ In the model.py: 
+tf.feature_column.categorical_column_with_vocabulary_list('dayofweek', vocabulary_list = ['Sun', 'Mon', 'Tues', 'Wed', 'Thu', 'Fri', 'Sat'])
++ In the lab7 notebook: days = ['null', 'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+>>> Correct 'Tues' in vocabulary_list to 'Tue'
+```
