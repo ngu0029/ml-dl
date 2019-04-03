@@ -15,7 +15,7 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 - Post Modeling: [Statistical Learning](https://github.com/jie-mei/OCRrect), [Error Frequency Patterns](https://github.com/tung18tht/ICDAR-2017-Post-OCR-Correction), [Character-based Language Models/LSTMs](https://github.com/KBNLresearch/ochre), [seq2seq/OpenNMT](https://github.com/TurkuNLP/ocr-correction), Statistical Machine Translation (SMT) - [Book](http://www.statmt.org/book/) - [Software (syntax-based and phrase-based SMT)](http://www.statmt.org/), [Text Similarity](https://github.com/pritishyuvraj/SOC-PMI-Short-Text-Similarity-), [Character-level machine translation](https://github.com/clarinsi/csmtiser)
 - [NMT: an open source neural machine translation system](http://opennmt.net/)
 - Word2Vec: [Support n-gram for vn](https://github.com/cuongnguyen14/word2vecpython)
-- [Google BERT - a SOTA pretraining technique for NLP](https://venturebeat.com/2018/11/02/google-open-sources-bert-a-state-of-the-art-training-technique-for-natural-language-processing/?fbclid=IwAR1GZhdbk1vZNGYQkjnseJZGsOafuTDyh_5V4WFSrEvqZanTs6sELkaeQ4s)
+- [Google BERT - a SOTA pretraining technique for NLP](https://venturebeat.com/2018/11/02/google-open-sources-bert-a-state-of-the-art-training-technique-for-natural-language-processing/?fbclid=IwAR1GZhdbk1vZNGYQkjnseJZGsOafuTDyh_5V4WFSrEvqZanTs6sELkaeQ4s), built on [Google's Transformer network](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
 ### Face Recognition
 - [Face  Recognition  Using  Co-occurence  Histograms  of  Oriented Gradients](https://www.researchgate.net/publication/261466486_Face_recognition_using_Co-occurrence_Histograms_of_Oriented_Gradients) - [Code](https://sites.google.com/view/thanhtoando/software)
