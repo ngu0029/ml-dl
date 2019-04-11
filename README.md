@@ -61,6 +61,7 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 - [Towards a Deeper Understanding of Adversarial Losses](https://deepai.org/publication/towards-a-deeper-understanding-of-adversarial-losses)
 
 ### Reinforcement Learning
+- [Intro video](https://www.youtube.com/watch?v=JgvyzIkgxF0)(@13:12 - training with sparse rewards = really hard; reward shaping = not an optimal solution), [Andrej Karpathy Blog](http://karpathy.github.io/2016/05/31/rl/)
 - [Course and Videos](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
 - [An intro to RL: Book and Code](http://www.incompleteideas.net/book/the-book-2nd.html)
 
