@@ -77,5 +77,8 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 ### Other Sources
 - [SOTA Machine Learning](https://paperswithcode.com/sota)
 
+### Conferences, Workshops
+- [ICLR 2019](https://huyenchip.com/2019/05/12/top-8-trends-from-iclr-2019.html)
+
 ### Misc
 - [Transform your command line application into a RESTful webservice and web interface](http://proycon.github.io/clam/)
