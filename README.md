@@ -73,12 +73,13 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 ### Books
 - [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/index.html) - [Code](https://github.com/aimacode)
 - [AI Programmer's Bookshelf](http://alumni.media.mit.edu/~jorkin/aibooks.html)
-- [Book DL Source](http://gen.lib.rus.ec/)
+- [Book DL Source](http://gen.lib.rus.ec/) > Download Books - **VERY GOOD**
 - [Deep Learning Textbook - MIT - Yoshua Bengio](http://www.deeplearningbook.org/) - [Exercises](http://www.deeplearningbook.org/exercises.html) - [Lectures](http://www.deeplearningbook.org/lecture_slides.html)
 - [Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition, Daniel Jurafsky & James H. Martin, 3rd ed, Oct 2019](https://web.stanford.edu/~jurafsky/slp3/)
 
 ### Other Sources
 - [SOTA Machine Learning](https://paperswithcode.com/sota)
+- [**Linda** Online Courses](www.lynda.com)
 
 ### Conferences, Workshops
 - [ICLR 2019](https://huyenchip.com/2019/05/12/top-8-trends-from-iclr-2019.html)
