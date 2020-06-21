@@ -18,6 +18,10 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 - RNN Approach: [RNN based LM](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf), [slides1](https://www.researchgate.net/publication/221489926_Recurrent_neural_network_based_language_model), [slides2](https://www.cs.cmu.edu/~hiroakih/pdf/RNNLM_hiroakih.pdf), [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - [Google BERT - a SOTA pretraining technique for NLP](https://venturebeat.com/2018/11/02/google-open-sources-bert-a-state-of-the-art-training-technique-for-natural-language-processing/?fbclid=IwAR1GZhdbk1vZNGYQkjnseJZGsOafuTDyh_5V4WFSrEvqZanTs6sELkaeQ4s), built on [Google's Transformer network](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
+### OCR
+- [Deep learning approach for receipt recognition - DA Le '19](https://deepai.org/publication/deep-learning-approach-for-receipt-recognition) > recognizing scanned receipts, involving two main modules: text
+detection based on Connectionist Text Proposal Network ([code CTPN Text Detection](https://github.com/eragonruan/text-detectionctpn)) and text recognition based on Attention-based Encoder-Decoder
+
 ### Face Recognition
 - [Face  Recognition  Using  Co-occurence  Histograms  of  Oriented Gradients](https://www.researchgate.net/publication/261466486_Face_recognition_using_Co-occurrence_Histograms_of_Oriented_Gradients) - [Code](https://sites.google.com/view/thanhtoando/software)
 
@@ -38,6 +42,10 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 ### Graph
 - [Deep Learning on Graphs: A Survey](https://deepai.org/publication/deep-learning-on-graphs-a-survey)
 - [Graph Neural Networks: A Review of Methods and Applications](https://deepai.org/publication/graph-neural-networks-a-review-of-methods-and-applications)
+
+### Building/Construction
+
+- [Autonomous concrete crack detection using deep fully convolutional neural network - Automation in Construction, DA Le '19](https://www.sciencedirect.com/science/article/abs/pii/S0926580518306745) > a crack detection method based on deep fully convolutional network (FCN) for semantic segmentation on concrete crack images
 
 ### Games
 - [Bayesian Optimization in AlphaGo](https://deepai.org/publication/bayesian-optimization-in-alphago)
