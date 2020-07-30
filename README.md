@@ -78,7 +78,7 @@ detection based on Connectionist Text Proposal Network ([code CTPN Text Detectio
 - [Cinnamon ai marathon](https://www.cinnamonailabs.com/cinnamon-ai-marathon)
 - [Zalo ai challenge](https://challenge.zalo.ai/)
 
-### Books - [Library Genesis Book Download](http://gen.lib.rus.ec/)
+### Books - [Library Genesis Book Download](http://gen.lib.rus.ec/) - [Paper Sci hub download](https://sci-hub.tw/)
 - [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/index.html) - [Code](https://github.com/aimacode)
 - [AI Programmer's Bookshelf](http://alumni.media.mit.edu/~jorkin/aibooks.html)
 - [Deep Learning Textbook - MIT - Yoshua Bengio](http://www.deeplearningbook.org/) - [Exercises](http://www.deeplearningbook.org/exercises.html) - [Lectures](http://www.deeplearningbook.org/lecture_slides.html)
