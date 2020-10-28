@@ -83,6 +83,7 @@ detection based on Connectionist Text Proposal Network ([code CTPN Text Detectio
 - [AI Programmer's Bookshelf](http://alumni.media.mit.edu/~jorkin/aibooks.html)
 - [Deep Learning Textbook - MIT - Yoshua Bengio](http://www.deeplearningbook.org/) - [Exercises](http://www.deeplearningbook.org/exercises.html) - [Lectures](http://www.deeplearningbook.org/lecture_slides.html)
 - [Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition, Daniel Jurafsky & James H. Martin, 3rd ed, Oct 2019](https://web.stanford.edu/~jurafsky/slp3/)
+- [The Best Artificial Intelligence and Machine Learning Books in 2020](https://medium.com/ai%C2%B3-theory-practice-business/the-best-artificial-intelligence-and-machine-learning-books-in-2020-116bb219556b)
 
 ### Other Sources
 - [SOTA Machine Learning](https://paperswithcode.com/sota)
