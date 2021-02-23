@@ -74,6 +74,9 @@ detection based on Connectionist Text Proposal Network ([code CTPN Text Detectio
 - [Course and Videos](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
 - [An intro to RL: Book and Code](http://www.incompleteideas.net/book/the-book-2nd.html)
 
+### Deployment
+- [Develop a NLP Model in Python & Deploy It with Flask, Step by Step](https://towardsdatascience.com/develop-a-nlp-model-in-python-deploy-it-with-flask-step-by-step-744f3bdd7776) > Flask API, Document Classification, Spam Filter
+
 ### Contests
 - [Cinnamon ai marathon](https://www.cinnamonailabs.com/cinnamon-ai-marathon)
 - [Zalo ai challenge](https://challenge.zalo.ai/)
