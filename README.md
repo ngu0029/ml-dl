@@ -17,6 +17,7 @@ Easy Online: Indexing in SQLite DB](http://www.stefan-evert.de/Software.html#Ind
 - Word2Vec: [Support n-gram for vn](https://github.com/cuongnguyen14/word2vecpython)
 - RNN Approach: [RNN based LM](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf), [slides1](https://www.researchgate.net/publication/221489926_Recurrent_neural_network_based_language_model), [slides2](https://www.cs.cmu.edu/~hiroakih/pdf/RNNLM_hiroakih.pdf), [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - [Google BERT - a SOTA pretraining technique for NLP](https://venturebeat.com/2018/11/02/google-open-sources-bert-a-state-of-the-art-training-technique-for-natural-language-processing/?fbclid=IwAR1GZhdbk1vZNGYQkjnseJZGsOafuTDyh_5V4WFSrEvqZanTs6sELkaeQ4s), built on [Google's Transformer network](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html)
+- [**OCR with Python, OpenCV and PyTesseract**](https://jaafarbenabderrazak-info.medium.com/ocr-with-tesseract-opencv-and-python-d2c4ec097866)
 
 ### OCR
 - [Deep learning approach for receipt recognition - DA Le '19](https://deepai.org/publication/deep-learning-approach-for-receipt-recognition) > recognizing scanned receipts, involving two main modules: text
