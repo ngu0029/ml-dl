@@ -52,6 +52,10 @@ detection based on Connectionist Text Proposal Network ([code CTPN Text Detectio
 ### Games
 - [Bayesian Optimization in AlphaGo](https://deepai.org/publication/bayesian-optimization-in-alphago)
 
+### Music Generation
+- https://video.vnexpress.net/tin-tuc/nhip-song/chang-trai-dung-ai-sang-tac-nhac-4269608.html > Open source plug-in: magenta
+- https://magenta.tensorflow.org/
+
 ### Chatbots
 - [Building Chatbots in Python](https://www.datacamp.com) - rule-based systems as well as machine learning
 - Github projects
@@ -89,6 +93,7 @@ detection based on Connectionist Text Proposal Network ([code CTPN Text Detectio
 - [Deep Learning Textbook - MIT - Yoshua Bengio](http://www.deeplearningbook.org/) - [Exercises](http://www.deeplearningbook.org/exercises.html) - [Lectures](http://www.deeplearningbook.org/lecture_slides.html)
 - [Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition, Daniel Jurafsky & James H. Martin, 3rd ed, Oct 2019](https://web.stanford.edu/~jurafsky/slp3/)
 - [The Best Artificial Intelligence and Machine Learning Books in 2020](https://medium.com/ai%C2%B3-theory-practice-business/the-best-artificial-intelligence-and-machine-learning-books-in-2020-116bb219556b)
+- [Dive into Deep Learning](https://d2l.ai/) ->[fastText Word Embeddings](https://d2l.ai/chapter_natural-language-processing-pretraining/subword-embedding.html), [BERT](https://d2l.ai/chapter_natural-language-processing-pretraining/bert.html)
 
 ### Other Sources
 - [SOTA Machine Learning](https://paperswithcode.com/sota)
